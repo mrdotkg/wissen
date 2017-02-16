@@ -9,9 +9,7 @@ use App\Http\Requests;
 class HomeController extends Controller
 {
     public function index(Request $request){
-
-
-        return '<h1>'.$request->path().'</h1>';
+        return '<h1><a href="/">Wissen Project </a></h1><h2>'.$request->path().'</h2>';
     }
 
 }
